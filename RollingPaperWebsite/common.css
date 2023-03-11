@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); /* 영어 글꼴 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto:wght@500&display=swap'); /* 한글 글꼴 */
+
+
+body{
+    text-align:center;
+    background-color:rgb(251, 250, 249);
+    
+}
+
+#container{
+    box-sizing: border-box;
+    border:2px solid rgb(242, 213, 177);
+    padding:10px;
+    margin:auto;
+    border-radius:20px;
+    background-color:rgb(255, 237, 225);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#submitbutton{
+    border: 0px;
+    padding:5px;
+    text-decoration:none;
+    color:rgb(251, 250, 249);
+    background-color: rgb(255, 165, 91);
+    padding-right:10px;
+    padding-left:10px;
+    border-radius:20px;
+    position:relative;
+    left:3px;
+    width:60px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#line{
+    box-sizing: border-box;
+    background: rgb(255, 209, 174);
+    height: 2px;
+    width: 637px;
+    position:relative;
+    left: 37px;
+}
+
+#line2{
+    box-sizing: border-box;
+    background: rgb(255, 209, 174);
+    height: 2px;
+    width: 100px;
+    rotate:65deg;
+    position: relative;
+    right: 33px;
+    bottom: 42px;
+}
+
+#line3{
+    box-sizing: border-box;
+    background: rgb(255, 209, 174);
+    height: 2px;
+    width: 103px;
+    rotate:-65deg;
+    position: relative;
+    left: 90%;
+    bottom: 44px;
+}
+
+@media screen and (min-width: 800px) {
+    #container{
+        width: 740px;
+        height: 300px
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #container{
+        width: 460px;
+        height: 300px
+    }
+    #line3{
+        left:360px;
+        width: 106px;
+        bottom: 45px;
+    }
+    #line{
+        width: 353px;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 500px) {
+    #container{
+        width: 345px;
+        height: 300px
+    }
+    #line3{
+        left:252px;
+    }
+    #line{
+        width: 245px;
+    }
+}
+@media screen and (min-width: 00px) and (max-width: 330px) {
+    #container{
+        width: 250px;
+        height: 300px
+    }
+    #line3{
+        left:155px;
+    }
+    #line{
+        width: 148px;
+    }
+}
+
+
+
+#school-logo{
+    width:220px;
+    position:absolute;
+    left: 20px;
+    top:10px;
+}
+
+#back-button-logo{
+    width:70px;
+    position:absolute;
+    left: 20px;
+    top:15px;
+}
+
+#gradelogo-style{
+    position:absolute;
+    font-size:50px;
+    right: 40px;
+    top:-25px;
+    color:#5c5c5c;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+}
+
+@media screen and (max-width: 325px) {
+    #gradelogo-style{
+        top:-100px;
+    }
+}
+
+/* #children{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    width:40%;
+} */
+
+.musicbox{
+    position:absolute;
+    right:30px;
+    bottom: 30px;
+    border:2px solid gray;
+    border-radius:30px;
+    width: 340px;
+}
+
+#number-check{
+    background-color:rgb(251, 250, 249);
+    border: 1px solid rgb(242, 213, 177);
+    width:100px;
+    height:20px;
+    position: relative;
+    left:1px;
+    bottom: 1.5px;
+}
+
+#madeby-logo-1{
+    color:rgb(228, 217, 206);
+    position:absolute;
+    bottom:25px;
+    left:50%;
+    transform:translate(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+#madeby-logo-2{
+    color:rgb(228, 217, 206);
+    position:absolute;
+    bottom: 1%;
+    left:50%;
+    transform:translate(-50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.blacktext{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#191919;
+}
+
+.rollingpaper-style{
+    color:rgb(255, 165, 91);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 3px;
+}
+
+#wording-style{
+    color:rgb(254, 181, 124);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:large;
+}
+
+#nameinputword-style{
+    color:rgb(249, 153, 75);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.commentbox{
+    border:1px solid rgb(242, 213, 177);
+    padding:5px;
+    padding-right:10px;
+    padding-left:10px;
+    border-radius:20px;
+    background-color:rgb(255, 237, 225);
+    display:inline-block;
+    margin:10px 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#191919;
+}
+
+#word-cloud{
+    width:500px;
+}
+
+#rolling-paper-line{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+    height: 4px;
+    left: 0px;
+    top: 95px;
+
+    background-color: #FDCC9B;
+}
+
+/* rgb(250, 165, 81); */
+
+/* #container{
+    border:2px solid rgb(242, 213, 177);
+    padding:10px;
+    width: 40%;
+    margin:auto;
+    border-radius:20px;
+    background-color:rgb(255, 237, 225);
+    position:relative;
+    top:180px;
+} */
+
+/* .commentbox{
+    border:3px solid rgb(226, 198, 177);
+    padding:5px;
+    text-decoration:none;
+    color:#191919;
+    padding-right:10px;
+    padding-left:10px;
+    border-radius:20px;
+    background-color:rgb(247, 220, 199);
+    box-shadow:5px 7px 14px rgb(247, 220, 199);
+    display:inline-block;
+    margin:5px;
+} */
+
